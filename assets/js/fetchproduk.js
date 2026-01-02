@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
         name: "Minyak Klentik",
-        images: ["assets/img/products/home_shop_thumb04.png"],
+        images: ["assets/img/products/minyakklentik1.png", "assets/img/products/minyakklentik2.png", "assets/img/products/minyakklentik3.png"],
         description: "Minyak kelapa tradisional, dapat digunakan untuk konsumsi dan urut.",
         priceRange: "Rp 30.000 - Rp 80.000",
         discount: "-8%",
@@ -85,7 +85,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     <div class="home-shop-thumb">
                         <a href="javascript:void(0)">
                             <img src="${product.images[0]}" alt="${product.name}">
-                            <span class="discount">-15%</span>
+                           
                         </a>
                         <div class="shop-thumb-shape"></div>
                     </div>
@@ -93,7 +93,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         <h4 class="title"><a href="javascript:void(0)">${product.name}</a></h4>
                         <span class="home-shop-price">Rp ${price.toLocaleString("id-ID")}</span>
                         <div class="shop-content-bottom">
-                            <a href="javascript:void(0)" class="btn btn-two">Buy Now</a>
+                            <a href="javascript:void(0)" class="btn btn-two">Pesan Sekarang</a>
                         </div>
                     </div>
                 </div>

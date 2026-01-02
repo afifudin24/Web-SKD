@@ -2885,7 +2885,7 @@ body.search-visible {
 	transition: .3s linear;
 }
 .ingredients-thumb img {
-	clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+	
 	display: block;
 }
 .ingredients-content .title {
